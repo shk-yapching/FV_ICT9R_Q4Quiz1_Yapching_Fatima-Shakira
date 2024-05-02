@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Q1 Project</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+</head>
+<style>
+ 		.navbar{
+            padding: 0;
+            font-family: courier;
+            font-size: 20px;
+        }
+
+        #searchsub{
+            cursor: pointer;
+        }
+
+        #topnav{
+            width: 75%;
+        }
+
+        .searchinput{
+            cursor: text;
+        }
+
+        .search-container{
+            width: 25%;
+        }
+
+        .nav-link{
+            color: black;
+            font-size: 20px;
+        }
+
+        #brand{
+            height:100px;
+            width: 150px;
+        }
+        body{
+        	font-family: courier;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-md bg-light">
+
+    <a class="navbar-brand" href="#"></a>
+    <div id="topnav">
+        <ul class="navbar-nav">
+
+            <li class="nav-item">
+                <a class="nav-link" href="mainpage.html"> | Main page |</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Q1PROJ.html"onclick="firstquarter()">First Quarter |</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Q2PROJ.html">Second Quarter |</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Q3PROJ.html">Third Quarter |</a>
+            </li>
+        </ul>
+    </div>
+
+<div>
+    <form>
+        <input type="search" placeholder="Search"name="search" class="searchinput">
+        <button type="submit" class="btn-dark" id="searchsub">Enter</button>
+    </form>
+</div>
+</nav>
+<body bgcolor="DEB887">
+<center>
+	<label id="scrollup"><font color="DEB887"size="3"></label>
+	<a href="#scrolldown">Go down</a>
+<table border="5"s cellpadding="5" cellspacing="5" bgcolor="C19A6B" bordercolor="ffffFf" style="text-align: center;">
+	<tr>
+		<th bgcolor="#5D432C" colspan="3"><font color="DEB887"size="5">NOLI ME TANGERE </th>
+	</tr>
+		<tr bgcolor="#5D432C"><b>
+			<td colspan="2"><font color="DEB887"size="3"><strong>CHARACTERS</td>
+			<td><font color="DEB887"size="3"><strong>DESCRIPTION</td>
+		</tr>
+		<tr bgcolor="#906E3E">
+			<td><a href="https://noli-me-tangere.fandom.com/wiki/Crispin" target="_blank"><img src="https://static.wikia.nocookie.net/noli-me-tangere/images/7/7b/AviCrispin.png/revision/latest?cb=20200523014743" width="100px" height="150px"></td>
+			<td>Crispín</td>
+			<td>
+				<li>Sisa's son and Basilio's brother.</li>
+				<li>studying to be a church caretaker.</li>
+				<li>Beaten by the head sexton and accused of stealing money.</li>
+			</td>
+		</tr>
+		<tr bgcolor="#906E3E">
+			<td><a href="https://noli-me-tangere.fandom.com/wiki/Basilio" target="_blank"><img src="https://static.wikia.nocookie.net/noli-me-tangere/images/e/ef/AviBasilio.png/revision/latest?cb=20200523020145" width="100px" height="150px"></td>
+			<td>Basilio</td>
+			<td>
+				<li>Sisa's son and Crispin's brother.</li>
+				<li>Works as a sexton.</li>
+				<li>Works to send support money to Sisa, his mother.</li>
+				<li>Escaped the head sexton and tried to locate Crispín</li>
+
+		</tr>
+		<tr bgcolor="#906E3E">
+			<td><a href="https://noli-me-tangere.fandom.com/wiki/Capitan_Tiago?so=search" target="_blank"><img src="https://static.wikia.nocookie.net/noli-me-tangere/images/d/da/AviTiago.png/revision/latest?cb=20200523043309" width="100px" height="150px"></td>
+			<td>Captain Tiago</td>
+			<td>	
+				<li>Wealthy Filipino</li>
+				<li>Close with high-ranking members of the Chatolic church.</li>
+				<li>Joins the priest in insulting own people.</li>
+				<li>No respect for religion.</li>
+				<li>Father of Maria Clara.</li>
+			</td>
+		</tr>
+		<tr bgcolor="#906E3E">
+			<td><a href="https://noli-me-tangere.fandom.com/wiki/Crisostomo_Ibarra?so=search" target="_blank"><img src="https://static.wikia.nocookie.net/noli-me-tangere/images/d/d9/AviIbarra.png/revision/latest?cb=20200523011813" width="100px" height="150px"></td>
+			<td>Crisóstomo Ibarra</td>
+			<td>
+				<li>Wealthy young Filipino.</li>
+				<li>Son of Don Rafael.</li>
+				<li>Sophisticated, highlt esteemed, and very idealistic.</li>
+				<li>Studied in Europe for seven years.</li>
+			</td>
+			</tr>
+		<tr bgcolor="#906E3E">
+			<td><a href="https://noli-me-tangere.fandom.com/wiki/Pilosopo_Tasio" target="_blank"><img src="https://static.wikia.nocookie.net/noli-me-tangere/images/6/63/AviTasio.png/revision/latest?cb=20200523015218" width="100px" height="150px"></td>
+			<td>Old Tasio</td>
+			<td>
+				<li>Old man who studied philosophy.</li>
+				<li>Crazy and Intelligent.</li>
+				<li>Respects Ibarra and gives him advice.</li>
+			</td>
+		</tr>
+	</table>
+	<br>
+	<form><label for="message"><font color="5D432C"size="3">Comment for suggestions and improvement!</label></form>
+	
+		<textarea rows="5" cols="20" placeholder="Type your answer here"></textarea>
+	<br>
+	<label for="ratings">Who's your favorite character?</label>
+		<br>
+		<input id="fav1" name="fav1" type="checkbox">
+		<label for="Rate">Crispín</label>
+		<br>
+		<input id="fav2" name="fav2" type="checkbox">
+		<label for="Rate">Basilio</label>
+		<br>
+		<input id="fav3" name="fav3" type="checkbox">
+		<label for="Rate">Captain Tiago</label>
+		<br>
+		<input id="fav4" name="fav4" type="checkbox">
+		<label for="Rate">Crisóstomo Ibarra</label>
+		<br>
+		<input id="fav5" name="fav5" type="checkbox">
+		<label for="Rate">Old Tasio</label>
+		<br>
+	<label>
+		<p>Reference/s:</p>
+		<li><a href="https://www.gradesaver.com/noli-me-tangere/study-guide/character-list" target="_blank">Characters</a></li>
+
+		<li><a href="https://gotodesigno.com/shades-of-brown-color/" target="_blank">Colors</a></li>
+	</label>
+	<h1><label id="scrolldown"></label></h1>
+	<a href="#scrollup">Go up</a>
+</center>
+</body>
+</html>
